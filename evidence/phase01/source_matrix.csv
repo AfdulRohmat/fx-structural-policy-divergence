@@ -1,0 +1,31 @@
+currency,feature,series_id,frequency,value_kind,provider,point_in_time_mechanism,last_visible_at_2025_11_30,recency_limit_days,coverage_status,error
+AUD,headline,CPALTT01AUQ659N,quarterly,yoy_percent,ALFRED,PASS,2025-01-01,150,FAIL,advertised observation end is stale before package request
+AUD,underlying,CPGRLE01AUQ659N,quarterly,yoy_percent,ALFRED,PASS,2025-01-01,150,FAIL,advertised observation end is stale before package request
+AUD,unemployment,LRHUTTTTAUM156S,monthly,percent,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+CAD,headline,CPALTT01CAM659N,monthly,yoy_percent,ALFRED,PASS,2025-03-01,75,FAIL,advertised observation end is stale before package request
+CAD,underlying,CPGRLE01CAM659N,monthly,yoy_percent,ALFRED,PASS,2025-03-01,75,FAIL,advertised observation end is stale before package request
+CAD,unemployment,LRHUTTTTCAM156S,monthly,percent,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+CHF,headline,CPALTT01CHM659N,monthly,yoy_percent,ALFRED,PASS,2025-04-01,75,FAIL,advertised observation end is stale before package request
+CHF,underlying,CPGRLE01CHM659N,monthly,yoy_percent,ALFRED,PASS,2025-04-01,75,FAIL,advertised observation end is stale before package request
+CHF,unemployment,LRHUTTTTCHQ156S,quarterly,percent,ALFRED,FAIL,,150,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+EUR,headline,CP0000EZ19M086NEST,monthly,index,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+EUR,underlying,00XEFDEZ19M086NEST,monthly,index,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+EUR,unemployment,LRHUTTTTEZM156S,monthly,percent,ALFRED,PASS,2023-01-01,75,FAIL,advertised observation end is stale before package request
+GBP,headline,CPALTT01GBM659N,monthly,yoy_percent,ALFRED,PASS,2025-03-01,75,FAIL,advertised observation end is stale before package request
+GBP,underlying,CPGRLE01GBM659N,monthly,yoy_percent,ALFRED,PASS,2025-03-01,75,FAIL,advertised observation end is stale before package request
+GBP,unemployment,LRHUTTTTGBM156S,monthly,percent,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+JPY,headline,CPALTT01JPM659N,monthly,yoy_percent,ALFRED,PASS,2022-04-01,75,FAIL,advertised observation end is stale before package request
+JPY,underlying,CPGRLE01JPM659N,monthly,yoy_percent,ALFRED,PASS,2022-04-01,75,FAIL,advertised observation end is stale before package request
+JPY,unemployment,LRHUTTTTJPM156S,monthly,percent,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+NOK,headline,CPALTT01NOM659N,monthly,yoy_percent,ALFRED,PASS,2025-04-01,75,FAIL,advertised observation end is stale before package request
+NOK,underlying,CPGRLE01NOM659N,monthly,yoy_percent,ALFRED,PASS,2025-04-01,75,FAIL,advertised observation end is stale before package request
+NOK,unemployment,LRHUTTTTNOM156S,monthly,percent,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+NZD,headline,NZLCPIALLQINMEI,quarterly,index,ALFRED,PASS,2025-01-01,150,FAIL,advertised observation end is stale before package request
+NZD,underlying,NZLCPICORQINMEI,quarterly,index,ALFRED,PASS,2025-01-01,150,FAIL,advertised observation end is stale before package request
+NZD,unemployment,LRHUTTTTNZQ156S,quarterly,percent,ALFRED,FAIL,,150,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+SEK,headline,CPALTT01SEM659N,monthly,yoy_percent,ALFRED,PASS,2025-03-01,75,FAIL,advertised observation end is stale before package request
+SEK,underlying,CPGRLE01SEM659N,monthly,yoy_percent,ALFRED,PASS,2025-03-01,75,FAIL,advertised observation end is stale before package request
+SEK,unemployment,LRHUTTTTSEM156S,monthly,percent,ALFRED,FAIL,,75,FAIL,ALFRED request failed: HTTP Error 500: Internal Server Error
+USD,headline,CPALTT01USM659N,monthly,yoy_percent,ALFRED,PASS,2025-04-01,75,FAIL,advertised observation end is stale before package request
+USD,underlying,CPGRLE01USM659N,monthly,yoy_percent,ALFRED,PASS,2025-04-01,75,FAIL,advertised observation end is stale before package request
+USD,unemployment,LRHUTTTTUSM156S,monthly,percent,ALFRED,PASS,2025-09-01,75,FAIL,advertised observation end is stale before package request

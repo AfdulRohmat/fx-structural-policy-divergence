@@ -1,0 +1,8 @@
+{
+  "alfred_base_url": "https://alfred.stlouisfed.org/series/downloaddata",
+  "bis": {
+    "source_sha256": "fc942dc3863af28271943a891cbc8b5977ef2f6a79d464033247cc67b328f159",
+    "source_url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.AU+CA+CH+XM+GB+JP+NO+NZ+SE+US?startPeriod=2013-01&endPeriod=2026-06"
+  },
+  "confirmatory_fx_read": false
+}

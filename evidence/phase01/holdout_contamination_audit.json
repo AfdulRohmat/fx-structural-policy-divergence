@@ -1,0 +1,20 @@
+{
+  "adjacent_research": [
+    {
+      "evaluation_end": "2022-12-31",
+      "overlap_with_spd_confirmation": false,
+      "repository": "fx-fundamental-bias-engine",
+      "scope": "P1Y proxy and structural-policy development diagnostics"
+    },
+    {
+      "evaluation_overlap": "2017-2024",
+      "repository": "fx-fundamental-analysis",
+      "same_hypothesis_or_signal": false,
+      "scope": "USDJPY employment-event study with a different signal"
+    }
+  ],
+  "interpretation": "The exact SPD signal has not been evaluated on the registered holdout. Adjacent FX outcome exposure is disclosed and raises interpretation risk, but does not replace the frozen test.",
+  "new_signal_previously_tested_on_2023_2025_fx": false,
+  "raw_2023_2025_fx_possession_in_adjacent_repositories": true,
+  "status": "PASS_FOR_NEW_SPD_HYPOTHESES_WITH_ADJACENT_RESEARCH_DISCLOSED"
+}

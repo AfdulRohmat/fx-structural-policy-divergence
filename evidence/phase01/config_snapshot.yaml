@@ -1,0 +1,287 @@
+{
+  "research_contract": {
+    "bootstrap": {
+      "block_length_months": 3,
+      "kind": "circular_moving_month_block",
+      "resamples": 10000,
+      "seed": 20260906
+    },
+    "confirmation_end": "2025-11-30",
+    "confirmation_fx_access": "FORBIDDEN_UNTIL_PHASE_03_FREEZE",
+    "confirmation_start": "2023-01-31",
+    "contract_frozen_date": "2026-09-06",
+    "currency_universe": [
+      "AUD",
+      "CAD",
+      "CHF",
+      "EUR",
+      "GBP",
+      "JPY",
+      "NOK",
+      "NZD",
+      "SEK",
+      "USD"
+    ],
+    "development_end": "2022-12-31",
+    "development_start": "2013-01-31",
+    "minimum_pooled_training_rows": 600,
+    "minimum_training_months_per_currency": 60,
+    "minimum_zscore_observations": 36,
+    "namespace": "structural_policy_divergence_v1",
+    "output_kind": "STRUCTURAL_POLICY_CONTEXT",
+    "policy_horizon_months": 6,
+    "policy_label_support_end": "2026-06-30",
+    "primary_eligibility_filter": "level_and_revision_same_sign",
+    "primary_fx_horizon_months": 1,
+    "primary_signal": "pair_policy_revision_1m_bp",
+    "revision_horizon_months": 1,
+    "ridge_penalties": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "schema_version": "1.0.0",
+    "sealed_fx_start": "2026-01-01",
+    "secondary_fx_horizons_months": [
+      3,
+      6
+    ],
+    "snapshot_local_time": "17:00:00",
+    "snapshot_timezone": "Europe/Brussels",
+    "status": "FROZEN_BEFORE_SOURCE_AND_FX_ACCESS",
+    "technical_research": "FORBIDDEN_UNTIL_PHASE_05_PROCEED"
+  },
+  "source_registry": {
+    "bis_ref_areas": {
+      "AUD": "AU",
+      "CAD": "CA",
+      "CHF": "CH",
+      "EUR": "XM",
+      "GBP": "GB",
+      "JPY": "JP",
+      "NOK": "NO",
+      "NZD": "NZ",
+      "SEK": "SE",
+      "USD": "US"
+    },
+    "central_bank_profile_sources": {
+      "AUD": "https://www.rba.gov.au/inflation/inflation-target.html",
+      "CAD": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
+      "CHF": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/strategy",
+      "EUR": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+      "GBP": "https://www.bankofengland.co.uk/monetary-policy",
+      "JPY": "https://www.boj.or.jp/en/mopo/outline/index.htm",
+      "NOK": "https://www.norges-bank.no/en/topics/Monetary-policy/mandate/",
+      "NZD": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy",
+      "SEK": "https://www.riksbank.se/en-gb/monetary-policy/the-inflation-target/",
+      "USD": "https://www.federalreserve.gov/monetarypolicy/fomc.htm"
+    },
+    "currencies": {
+      "AUD": {
+        "country": "Australia",
+        "headline": {
+          "frequency": "quarterly",
+          "series_id": "CPALTT01AUQ659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 2.5,
+        "underlying": {
+          "frequency": "quarterly",
+          "series_id": "CPGRLE01AUQ659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTAUM156S",
+          "value_kind": "percent"
+        }
+      },
+      "CAD": {
+        "country": "Canada",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CPALTT01CAM659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "CPGRLE01CAM659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTCAM156S",
+          "value_kind": "percent"
+        }
+      },
+      "CHF": {
+        "country": "Switzerland",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CPALTT01CHM659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 1.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "CPGRLE01CHM659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "quarterly",
+          "series_id": "LRHUTTTTCHQ156S",
+          "value_kind": "percent"
+        }
+      },
+      "EUR": {
+        "country": "Euro area",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CP0000EZ19M086NEST",
+          "value_kind": "index"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "00XEFDEZ19M086NEST",
+          "value_kind": "index"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTEZM156S",
+          "value_kind": "percent"
+        }
+      },
+      "GBP": {
+        "country": "United Kingdom",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CPALTT01GBM659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "CPGRLE01GBM659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTGBM156S",
+          "value_kind": "percent"
+        }
+      },
+      "JPY": {
+        "country": "Japan",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CPALTT01JPM659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "CPGRLE01JPM659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTJPM156S",
+          "value_kind": "percent"
+        }
+      },
+      "NOK": {
+        "country": "Norway",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CPALTT01NOM659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "CPGRLE01NOM659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTNOM156S",
+          "value_kind": "percent"
+        }
+      },
+      "NZD": {
+        "country": "New Zealand",
+        "headline": {
+          "frequency": "quarterly",
+          "series_id": "NZLCPIALLQINMEI",
+          "value_kind": "index"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "quarterly",
+          "series_id": "NZLCPICORQINMEI",
+          "value_kind": "index"
+        },
+        "unemployment": {
+          "frequency": "quarterly",
+          "series_id": "LRHUTTTTNZQ156S",
+          "value_kind": "percent"
+        }
+      },
+      "SEK": {
+        "country": "Sweden",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CPALTT01SEM659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "CPGRLE01SEM659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTSEM156S",
+          "value_kind": "percent"
+        }
+      },
+      "USD": {
+        "country": "United States",
+        "headline": {
+          "frequency": "monthly",
+          "series_id": "CPALTT01USM659N",
+          "value_kind": "yoy_percent"
+        },
+        "target_midpoint": 2.0,
+        "underlying": {
+          "frequency": "monthly",
+          "series_id": "CPGRLE01USM659N",
+          "value_kind": "yoy_percent"
+        },
+        "unemployment": {
+          "frequency": "monthly",
+          "series_id": "LRHUTTTTUSM156S",
+          "value_kind": "percent"
+        }
+      }
+    },
+    "observation_start": "2000-01-01",
+    "provider": "ALFRED",
+    "qualification_vintages": [
+      "2013-01-31",
+      "2022-12-31",
+      "2023-01-31",
+      "2025-11-30"
+    ],
+    "recency_days": {
+      "monthly": 75,
+      "quarterly": 150
+    },
+    "schema_version": "1.0.0"
+  }
+}

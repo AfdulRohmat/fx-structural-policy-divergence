@@ -1,0 +1,55 @@
+{
+  "files": [
+    {
+      "bytes": 8184,
+      "path": "config_snapshot.yaml",
+      "sha256": "92ab6a69a80738c4437cb26d5a3190e7e64125494126e38739388b8146eb2ad5"
+    },
+    {
+      "bytes": 869,
+      "path": "holdout_contamination_audit.json",
+      "sha256": "9ae4438a052fe292340700cb496b8946d0e423f52d3ed474dddc2f425d4bff2d"
+    },
+    {
+      "bytes": 5456,
+      "path": "issues.jsonl",
+      "sha256": "4c07c83002296da3bca95a45a72f74cfc43a07be8752cd5ce77532cebc54f52d"
+    },
+    {
+      "bytes": 873,
+      "path": "REPORT.md",
+      "sha256": "d738529884dc56f4ae0bc8cde1b2dc9b3b07960e65e90d49a95749cd01ede068"
+    },
+    {
+      "bytes": 161,
+      "path": "sample_flow.json",
+      "sha256": "a8eb304682db1a1e4056c80f2628931a2ce19dbc510d81ff85ce13987acddca1"
+    },
+    {
+      "bytes": 11299,
+      "path": "series_audit.json",
+      "sha256": "894049f181d18b2d9bd21705261516c11fa2d3efc4cc08088483a7b67116855c"
+    },
+    {
+      "bytes": 4709,
+      "path": "source_gate_summary.json",
+      "sha256": "555be1e7a451d21f3b1cb621161b366af5d93b2cf26c51356e0507dd426eae3d"
+    },
+    {
+      "bytes": 365,
+      "path": "source_manifest.json",
+      "sha256": "3f21d79a58a701dcad3254e206ede901aea26048b6c75f4dcda0a2808ea7d00e"
+    },
+    {
+      "bytes": 4259,
+      "path": "source_matrix.csv",
+      "sha256": "18992c96fddee65b24fb24d943944b5a9705ba741eec2358f48cdb56ba788d46"
+    },
+    {
+      "bytes": 4709,
+      "path": "summary.json",
+      "sha256": "555be1e7a451d21f3b1cb621161b366af5d93b2cf26c51356e0507dd426eae3d"
+    }
+  ],
+  "phase": "01-source-qualification"
+}

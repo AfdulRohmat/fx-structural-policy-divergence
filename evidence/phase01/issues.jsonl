@@ -1,0 +1,30 @@
+{"currency": "AUD", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01AUQ659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "AUD", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01AUQ659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "AUD", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTAUM156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "CAD", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01CAM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "CAD", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01CAM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "CAD", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTCAM156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "CHF", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01CHM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "CHF", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01CHM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "CHF", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTCHQ156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "EUR", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "headline", "series_id": "CP0000EZ19M086NEST", "severity": "BLOCKING_PRIMARY"}
+{"currency": "EUR", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "underlying", "series_id": "00XEFDEZ19M086NEST", "severity": "BLOCKING_PRIMARY"}
+{"currency": "EUR", "detail": "advertised observation end is stale before package request", "feature": "unemployment", "series_id": "LRHUTTTTEZM156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "GBP", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01GBM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "GBP", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01GBM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "GBP", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTGBM156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "JPY", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01JPM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "JPY", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01JPM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "JPY", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTJPM156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "NOK", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01NOM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "NOK", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01NOM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "NOK", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTNOM156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "NZD", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "NZLCPIALLQINMEI", "severity": "BLOCKING_PRIMARY"}
+{"currency": "NZD", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "NZLCPICORQINMEI", "severity": "BLOCKING_PRIMARY"}
+{"currency": "NZD", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTNZQ156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "SEK", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01SEM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "SEK", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01SEM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "SEK", "detail": "ALFRED request failed: HTTP Error 500: Internal Server Error", "feature": "unemployment", "series_id": "LRHUTTTTSEM156S", "severity": "BLOCKING_PRIMARY"}
+{"currency": "USD", "detail": "advertised observation end is stale before package request", "feature": "headline", "series_id": "CPALTT01USM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "USD", "detail": "advertised observation end is stale before package request", "feature": "underlying", "series_id": "CPGRLE01USM659N", "severity": "BLOCKING_PRIMARY"}
+{"currency": "USD", "detail": "advertised observation end is stale before package request", "feature": "unemployment", "series_id": "LRHUTTTTUSM156S", "severity": "BLOCKING_PRIMARY"}

@@ -1,0 +1,302 @@
+{
+  "00XEFDEZ19M086NEST": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CP0000EZ19M086NEST": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01AUQ659N": {
+    "advertised_end": "2025-01-01",
+    "advertised_start": "1949-07-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "3ac7f16a0e45b6e71b668e250943206e18e0bcb3ea65a458cad675c9b6d4c0ed",
+    "last_visible_at_2025_11_30": "2025-01-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01CAM659N": {
+    "advertised_end": "2025-03-01",
+    "advertised_start": "1915-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "e7fceb272058e6416c51e33dec449a7a21691e8a752a05c4280e10ca9a7bb943",
+    "last_visible_at_2025_11_30": "2025-03-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01CHM659N": {
+    "advertised_end": "2025-04-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "6168bfe78430f68988ceb6e51f1ef37ac85b8f02ee5ed3496f1bb08feba0a4a0",
+    "last_visible_at_2025_11_30": "2025-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01GBM659N": {
+    "advertised_end": "2025-03-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "e693892d322cd058fa2c97cf92bfe2c15244f690cd001c85e99b9620b468b08f",
+    "last_visible_at_2025_11_30": "2025-03-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01JPM659N": {
+    "advertised_end": "2022-04-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "f346afa70bd290ebe1b615985a6d8646495f62f561d75e85a0e674b585b99d7a",
+    "last_visible_at_2025_11_30": "2022-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01NOM659N": {
+    "advertised_end": "2025-04-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "ced8d53c84e3cad0f8b03dea659dea669cc99db18e335d31ebbac91241bfc5f1",
+    "last_visible_at_2025_11_30": "2025-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01SEM659N": {
+    "advertised_end": "2025-03-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "9aae0526c0000d84fb207ec55a301557f59c11fa99f49e769312245a66c8c14c",
+    "last_visible_at_2025_11_30": "2025-03-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPALTT01USM659N": {
+    "advertised_end": "2025-04-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "9cb17be3c5d24430ed455a53b71d2f3c956f50b23983ee2f2d674be470f723db",
+    "last_visible_at_2025_11_30": "2025-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01AUQ659N": {
+    "advertised_end": "2025-01-01",
+    "advertised_start": "1971-04-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "246cc5b7b8ef7b4188af2bf6aacdef9a3f5cf3cd5443f9ae187429df9335a436",
+    "last_visible_at_2025_11_30": "2025-01-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01CAM659N": {
+    "advertised_end": "2025-03-01",
+    "advertised_start": "1962-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "4fd75e62c8f370b2f1b89435b20719e766c70da8b362c962b81fc051f6883daf",
+    "last_visible_at_2025_11_30": "2025-03-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01CHM659N": {
+    "advertised_end": "2025-04-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "5e406d55486cfcb39b6073bae2dc663661da22e44fb98044e2862d5f619b1466",
+    "last_visible_at_2025_11_30": "2025-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01GBM659N": {
+    "advertised_end": "2025-03-01",
+    "advertised_start": "1971-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "312d92458cf67a7b303c0ecdb8b5fc1053ec4cb2762444ab20d70c9bc42feca7",
+    "last_visible_at_2025_11_30": "2025-03-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01JPM659N": {
+    "advertised_end": "2022-04-01",
+    "advertised_start": "1956-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "85b818db12937e4b5656eb6310b53088a6a9714de865e72dced4bded29d85bbd",
+    "last_visible_at_2025_11_30": "2022-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01NOM659N": {
+    "advertised_end": "2025-04-01",
+    "advertised_start": "1971-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "182579e303202e8d3223893c4ee5f52695f729b9e2db54631fd550331b54a96e",
+    "last_visible_at_2025_11_30": "2025-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01SEM659N": {
+    "advertised_end": "2025-03-01",
+    "advertised_start": "1971-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "cb5a9ed5b8626863167e224862d6beb05ca760f1ed0d93dc23d513606b9e2ea6",
+    "last_visible_at_2025_11_30": "2025-03-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "CPGRLE01USM659N": {
+    "advertised_end": "2025-04-01",
+    "advertised_start": "1958-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "af0923dda4a594afe95e799572c05be092ceaad8aea591ef3bb19f63ccff73eb",
+    "last_visible_at_2025_11_30": "2025-04-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTAUM156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTCAM156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTCHQ156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTEZM156S": {
+    "advertised_end": "2023-01-01",
+    "advertised_start": "1990-07-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "27e683760134d06d652b909f1d358c5b56b8f11eadfd49db283e99d7ad8ea879",
+    "last_visible_at_2025_11_30": "2023-01-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTGBM156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTJPM156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTNOM156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTNZQ156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTSEM156S": {
+    "advertised_end": "",
+    "advertised_start": "",
+    "error": "ALFRED request failed: HTTP Error 500: Internal Server Error",
+    "form_sha256": "",
+    "last_visible_at_2025_11_30": "",
+    "mechanism_status": "FAIL",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "LRHUTTTTUSM156S": {
+    "advertised_end": "2025-09-01",
+    "advertised_start": "1955-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "d62861b3d94a56597ffad7f80c32acf508308e619f2208f3c2d8269ca74f3e30",
+    "last_visible_at_2025_11_30": "2025-09-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "NZLCPIALLQINMEI": {
+    "advertised_end": "2025-01-01",
+    "advertised_start": "1914-04-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "ed444713b066461ac1ea5d245fbbb1523248f76d6e0ca112a53f1b79e4facf13",
+    "last_visible_at_2025_11_30": "2025-01-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  },
+  "NZLCPICORQINMEI": {
+    "advertised_end": "2025-01-01",
+    "advertised_start": "1969-01-01",
+    "error": "advertised observation end is stale before package request",
+    "form_sha256": "15371ae651b828df7182e2678133aaf52077755a4917f664fe5d20e1a9abd157",
+    "last_visible_at_2025_11_30": "2025-01-01",
+    "mechanism_status": "PASS",
+    "package_sha256": "",
+    "requested_vintages_returned": 0
+  }
+}

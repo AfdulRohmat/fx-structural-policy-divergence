@@ -1,0 +1,135 @@
+{
+  "bis_policy": {
+    "latest_period_by_currency": {
+      "AUD": "2026-06-01",
+      "CAD": "2026-06-01",
+      "CHF": "2026-06-01",
+      "EUR": "2026-06-01",
+      "GBP": "2026-06-01",
+      "JPY": "2026-06-01",
+      "NOK": "2026-06-01",
+      "NZD": "2026-06-01",
+      "SEK": "2026-06-01",
+      "USD": "2026-06-01"
+    },
+    "missing_currencies": [],
+    "row_count": 1580,
+    "scalar_effective_rate_limitation": "BIS provides comparable effective policy-rate histories; profile metadata must document historical target/corridor convention changes.",
+    "source_sha256": "fc942dc3863af28271943a891cbc8b5977ef2f6a79d464033247cc67b328f159",
+    "source_url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.AU+CA+CH+XM+GB+JP+NO+NZ+SE+US?startPeriod=2013-01&endPeriod=2026-06",
+    "status": "PASS"
+  },
+  "central_bank_profiles": [
+    {
+      "currency": "AUD",
+      "profile_source_url": "https://www.rba.gov.au/inflation/inflation-target.html",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "CAD",
+      "profile_source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "CHF",
+      "profile_source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/strategy",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "EUR",
+      "profile_source_url": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "GBP",
+      "profile_source_url": "https://www.bankofengland.co.uk/monetary-policy",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "JPY",
+      "profile_source_url": "https://www.boj.or.jp/en/mopo/outline/index.htm",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "NOK",
+      "profile_source_url": "https://www.norges-bank.no/en/topics/Monetary-policy/mandate/",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "NZD",
+      "profile_source_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "SEK",
+      "profile_source_url": "https://www.riksbank.se/en-gb/monetary-policy/the-inflation-target/",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    },
+    {
+      "currency": "USD",
+      "profile_source_url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+      "status": "PASS_WITH_EFFECTIVE_DATING_REQUIRED"
+    }
+  ],
+  "confirmatory_fx_read": false,
+  "downstream_primary_status": "NOT_TESTED",
+  "failed_legs": [
+    "AUD:headline",
+    "AUD:underlying",
+    "AUD:unemployment",
+    "CAD:headline",
+    "CAD:underlying",
+    "CAD:unemployment",
+    "CHF:headline",
+    "CHF:underlying",
+    "CHF:unemployment",
+    "EUR:headline",
+    "EUR:underlying",
+    "EUR:unemployment",
+    "GBP:headline",
+    "GBP:underlying",
+    "GBP:unemployment",
+    "JPY:headline",
+    "JPY:underlying",
+    "JPY:unemployment",
+    "NOK:headline",
+    "NOK:underlying",
+    "NOK:unemployment",
+    "NZD:headline",
+    "NZD:underlying",
+    "NZD:unemployment",
+    "SEK:headline",
+    "SEK:underlying",
+    "SEK:unemployment",
+    "USD:headline",
+    "USD:underlying",
+    "USD:unemployment"
+  ],
+  "generated_at_utc": "2026-09-06T09:28:47.444867+00:00",
+  "holdout_contamination_audit": {
+    "adjacent_research": [
+      {
+        "evaluation_end": "2022-12-31",
+        "overlap_with_spd_confirmation": false,
+        "repository": "fx-fundamental-bias-engine",
+        "scope": "P1Y proxy and structural-policy development diagnostics"
+      },
+      {
+        "evaluation_overlap": "2017-2024",
+        "repository": "fx-fundamental-analysis",
+        "same_hypothesis_or_signal": false,
+        "scope": "USDJPY employment-event study with a different signal"
+      }
+    ],
+    "interpretation": "The exact SPD signal has not been evaluated on the registered holdout. Adjacent FX outcome exposure is disclosed and raises interpretation risk, but does not replace the frozen test.",
+    "new_signal_previously_tested_on_2023_2025_fx": false,
+    "raw_2023_2025_fx_possession_in_adjacent_repositories": true,
+    "status": "PASS_FOR_NEW_SPD_HYPOTHESES_WITH_ADJACENT_RESEARCH_DISCLOSED"
+  },
+  "macro_fail": 30,
+  "macro_pass": 0,
+  "macro_rows": 30,
+  "phase": "01-source-qualification",
+  "phase_decision": "FAIL",
+  "reason": "At least one required G10 macro leg lacks point-in-time coverage through the registered confirmation window."
+}
