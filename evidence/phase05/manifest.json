@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "bytes": 1386,
+      "path": "config_snapshot.yaml",
+      "sha256": "c055e61c0e81d351f011c651d3905b6de82806975900c518974a6259f56cd084"
+    },
+    {
+      "bytes": 417,
+      "path": "issues.jsonl",
+      "sha256": "3583d47d08e00fd067572c64faa74b0cdb4df36a13b6ef04e9257729202a119f"
+    },
+    {
+      "bytes": 868,
+      "path": "REPORT.md",
+      "sha256": "d13a13aa10b9589c589529c512d8c36e1d18bc7a042307d49254e92bbd9b71de"
+    },
+    {
+      "bytes": 210,
+      "path": "sample_flow.json",
+      "sha256": "ea7ea8dc77812504d9f8c56692fe6b74b512e2832139c0c80d637b304f4b26f6"
+    },
+    {
+      "bytes": 191,
+      "path": "source_manifest.json",
+      "sha256": "3e1e11c03a49ffa7b2bdbb28ba700779cd2fdcf6b0218eb7d4cc40916caa0367"
+    },
+    {
+      "bytes": 2101,
+      "path": "summary.json",
+      "sha256": "165627f95ed33b07b5755c330cd1e831a2556d02ed79c93d71aec0b36fb3297a"
+    }
+  ],
+  "phase": "05-research-gate"
+}

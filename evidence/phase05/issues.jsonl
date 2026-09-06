@@ -1,0 +1,5 @@
+{"check": "full_g10_point_in_time_source_coverage", "passed": false, "severity": "BLOCKING"}
+{"check": "SPD_H1_POLICY_SKILL_supported", "passed": false, "severity": "BLOCKING"}
+{"check": "at_least_two_H2_H3_H4_supported", "passed": false, "severity": "BLOCKING"}
+{"check": "H2_or_H3_supported", "passed": false, "severity": "BLOCKING"}
+{"check": "SPD_H5_STABILITY_supported", "passed": false, "severity": "BLOCKING"}

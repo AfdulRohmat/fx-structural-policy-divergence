@@ -10,6 +10,13 @@ readme = "README.md"
 requires-python = ">=3.12,<3.15"
 dependencies = []
 
+[project.scripts]
+spd-phase01 = "fx_structural_policy_divergence.phase01_sources:main"
+spd-phase02 = "fx_structural_policy_divergence.phase02_panel:main"
+spd-phase03 = "fx_structural_policy_divergence.phase03_model:main"
+spd-phase04 = "fx_structural_policy_divergence.phase04_fx:main"
+spd-phase05 = "fx_structural_policy_divergence.phase05_gate:main"
+
 [project.optional-dependencies]
 dev = [
   "mypy>=1.14,<2",

@@ -1,0 +1,60 @@
+{
+  "checks": {
+    "H2_or_H3_supported": false,
+    "SPD_H1_POLICY_SKILL_supported": false,
+    "SPD_H5_STABILITY_supported": false,
+    "at_least_two_H2_H3_H4_supported": false,
+    "full_g10_point_in_time_source_coverage": false,
+    "fx_marks_declared_non_executable": true,
+    "no_profitability_claim": true,
+    "sealed_2026_fx_untouched": true
+  },
+  "decision": "DO_NOT_PROCEED_WITH_SPD_V1",
+  "diagnostic_evidence": {
+    "extreme_spread_95_ci_percent": [
+      -0.4275541348203652,
+      0.2198825951671331
+    ],
+    "extreme_spread_bp": -9.521849476297675,
+    "mean_rank_ic": -0.02204301075268817,
+    "mean_rank_ic_95_ci": [
+      -0.12189132104454685,
+      0.08418010752688168
+    ],
+    "pair_revision_slope_95_ci": [
+      -0.02849409640739541,
+      0.013014526970948197
+    ],
+    "pair_revision_slope_percent_per_bp": -0.00580414211013904,
+    "policy_equal_weight_mae_bp": 48.676550668429385,
+    "policy_model_mae_bp": 33.7186460064326,
+    "policy_no_change_mae_bp": 48.88211382113821
+  },
+  "failed_check_count": 5,
+  "interpretation_boundary": {
+    "encouraging_diagnostic": [
+      "macro_to_six_month_policy_change"
+    ],
+    "not_estimable": [
+      "USDJPY_due_to_JPY_vintage_gap"
+    ],
+    "not_supported_diagnostic": [
+      "policy_revision_to_next_month_pair_return",
+      "policy_revision_cross_sectional_rank_ic",
+      "policy_revision_extreme_currency_spread",
+      "year_and_leave_one_currency_stability"
+    ],
+    "supported_as_primary": []
+  },
+  "phase": "05-research-gate",
+  "readable_conclusion": "Available-sample macro inputs predict six-month policy changes, but frozen policy-revision divergence does not predict next-month FX. Full-G10 source coverage also failed, so technical-filter research is not authorized under SPD v1.",
+  "registered_hypotheses": {
+    "SPD_H1_POLICY_SKILL": "NOT_TESTED",
+    "SPD_H2_PAIR_REVISION": "NOT_TESTED",
+    "SPD_H3_RANK_IC": "NOT_TESTED",
+    "SPD_H4_EXTREME_SPREAD": "NOT_TESTED",
+    "SPD_H5_STABILITY": "NOT_TESTED"
+  },
+  "supported_fx_hypotheses": [],
+  "technical_filter_research_authorized": false
+}
