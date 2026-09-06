@@ -21,11 +21,13 @@ policy-forecast revision -> next-month FX direction  not supported diagnostic
 
 ### Phase 01 - data qualification
 
-BIS policy rates passed for all ten currencies through June 2026. None of the
-30 registered macro legs could guarantee full point-in-time coverage through
-November 2025. Japan CPI ends in 2022; euro-area unemployment ends in early
-2023; most legacy OECD feeds end during 2025. The primary research path was
-therefore marked `NOT_TESTED` before any FX access.
+BIS policy rates passed for all ten currencies through June 2026. The initial
+conservative endpoint audit classified 0/30 registered macro legs as passing.
+A pre-FX recency amendment recovered valid date-level rows, but still produced
+zero confirmation months with all ten currencies complete. Japan CPI ends in
+2022; euro-area unemployment ends in early 2023; most legacy OECD feeds end
+during 2025. The primary research path was therefore marked `NOT_TESTED` before
+any FX access.
 
 ### Phase 02 - canonical panel
 
