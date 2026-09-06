@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "bytes": 1386,
+      "path": "config_snapshot.yaml",
+      "sha256": "c055e61c0e81d351f011c651d3905b6de82806975900c518974a6259f56cd084"
+    },
+    {
+      "bytes": 46920,
+      "path": "currency_predictions.csv",
+      "sha256": "af2d872feba8e88d850dadbc97829fd7c0b4adb236101efa991909baf0225f49"
+    },
+    {
+      "bytes": 12381,
+      "path": "currency_ranks.csv",
+      "sha256": "57b82fb7b7dc313b2facb05edf8be612976b81c9a10fb6c3646ac58f7b01037b"
+    },
+    {
+      "bytes": 129,
+      "path": "issues.jsonl",
+      "sha256": "de61282c58e2ab18500e879a3ffef6626d2fa7e1f82cd858783f97b39016a777"
+    },
+    {
+      "bytes": 2533,
+      "path": "model_audit.json",
+      "sha256": "5f5e3759d4f0edae27349b6604149378eab02b49cbe0847d7c6ae432dcfb6c50"
+    },
+    {
+      "bytes": 72819,
+      "path": "pair_signals.csv",
+      "sha256": "9bc200da42518ec47c9e04333485f660b4dc7c8d5c3f308d40dead690d0615db"
+    },
+    {
+      "bytes": 521,
+      "path": "prediction_freeze.json",
+      "sha256": "57650c0131020db8d90f99ae22e8f697a91c4ed5a9097084f93a68dff307c494"
+    },
+    {
+      "bytes": 556,
+      "path": "REPORT.md",
+      "sha256": "3eb7dc65dfaecb6601fd618ea15ee36b85e935c260dd7f7b3688e6e666897784"
+    },
+    {
+      "bytes": 98,
+      "path": "sample_flow.json",
+      "sha256": "820e8c240fb085848deed8ed3f6a3f9e83178eb92904a0b0f7d6a72bb6904345"
+    },
+    {
+      "bytes": 115,
+      "path": "source_manifest.json",
+      "sha256": "a02cfe612c6659ffe4f6e4ee407df25270f6a09aa0f1b2cd222acd35a8fc55a5"
+    },
+    {
+      "bytes": 1131,
+      "path": "summary.json",
+      "sha256": "1b21f228df9c20f38f8117d1393dbaae74d31813ed3f4e6c701f0f632378661f"
+    }
+  ],
+  "phase": "03-policy-signal-freeze"
+}

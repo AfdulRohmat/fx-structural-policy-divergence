@@ -1,0 +1,54 @@
+{
+  "bootstrap": {
+    "block_length_months": 3,
+    "kind": "circular_moving_month_block",
+    "resamples": 10000,
+    "seed": 20260906
+  },
+  "confirmation_end": "2025-11-30",
+  "confirmation_fx_access": "FORBIDDEN_UNTIL_PHASE_03_FREEZE",
+  "confirmation_start": "2023-01-31",
+  "contract_frozen_date": "2026-09-06",
+  "currency_universe": [
+    "AUD",
+    "CAD",
+    "CHF",
+    "EUR",
+    "GBP",
+    "JPY",
+    "NOK",
+    "NZD",
+    "SEK",
+    "USD"
+  ],
+  "development_end": "2022-12-31",
+  "development_start": "2013-01-31",
+  "minimum_pooled_training_rows": 600,
+  "minimum_training_months_per_currency": 60,
+  "minimum_zscore_observations": 36,
+  "namespace": "structural_policy_divergence_v1",
+  "output_kind": "STRUCTURAL_POLICY_CONTEXT",
+  "policy_horizon_months": 6,
+  "policy_label_support_end": "2026-06-30",
+  "primary_eligibility_filter": "level_and_revision_same_sign",
+  "primary_fx_horizon_months": 1,
+  "primary_signal": "pair_policy_revision_1m_bp",
+  "revision_horizon_months": 1,
+  "ridge_penalties": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "schema_version": "1.0.0",
+  "sealed_fx_start": "2026-01-01",
+  "secondary_fx_horizons_months": [
+    3,
+    6
+  ],
+  "snapshot_local_time": "17:00:00",
+  "snapshot_timezone": "Europe/Brussels",
+  "status": "FROZEN_BEFORE_SOURCE_AND_FX_ACCESS",
+  "technical_research": "FORBIDDEN_UNTIL_PHASE_05_PROCEED"
+}

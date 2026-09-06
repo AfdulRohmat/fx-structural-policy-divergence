@@ -1,0 +1,115 @@
+{
+  "constraint": "Four common macro slopes constrained non-negative",
+  "currency_intercept_order": [
+    "AUD",
+    "CAD",
+    "CHF",
+    "EUR",
+    "GBP",
+    "JPY",
+    "NOK",
+    "NZD",
+    "SEK",
+    "USD"
+  ],
+  "feature_order": [
+    "inflation_gap_z",
+    "inflation_momentum_z",
+    "labour_tightness_z",
+    "labour_momentum_z",
+    "policy_rate_percent",
+    "policy_change_3m_bp"
+  ],
+  "first_outer_origin": "2022-12-31",
+  "fx_outcomes_accessed": false,
+  "last_outer_origin": "2025-11-30",
+  "latest_fit": {
+    "active_zero_macro_constraints": [
+      "labour_tightness_z"
+    ],
+    "constrained_coefficients": [
+      31.259762144696086,
+      17.20018174136175,
+      -16.935818357313895,
+      8.211431588570743,
+      17.55445953999926,
+      -19.25418971111931,
+      7.934202113297006,
+      23.757161387048278,
+      -8.207675343417856,
+      29.90438450799377,
+      37.999018414784054,
+      1.2386275858703601,
+      0.0,
+      0.32111691602630765,
+      -27.84572548838521,
+      19.580641849341404
+    ],
+    "feature_order": [
+      "inflation_gap_z",
+      "inflation_momentum_z",
+      "labour_tightness_z",
+      "labour_momentum_z",
+      "policy_rate_percent",
+      "policy_change_3m_bp"
+    ],
+    "means": [
+      0.4668410114182367,
+      0.12459165837950628,
+      0.4988047229048178,
+      0.012447303088110526,
+      1.3426579925650557,
+      5.99907063197026
+    ],
+    "origin": "2025-11-30",
+    "primary_training_minimum_met": true,
+    "scales": [
+      1.6553661939352162,
+      1.387372324270362,
+      1.1901424355566876,
+      1.8516562288277751,
+      1.724192968788523,
+      37.55431414316308
+    ],
+    "selected_penalty": 100.0,
+    "training_counts": {
+      "AUD": 121,
+      "CAD": 124,
+      "CHF": 86,
+      "EUR": 66,
+      "GBP": 122,
+      "JPY": 70,
+      "NOK": 119,
+      "NZD": 120,
+      "SEK": 124,
+      "USD": 124
+    },
+    "training_rows": 1076,
+    "unconstrained_coefficients": [
+      31.293823322387333,
+      17.300184065034575,
+      -17.510997593821724,
+      9.108987402517306,
+      18.206466574671847,
+      -17.442444586573565,
+      6.617486053977677,
+      23.88478096686502,
+      -9.189543483037141,
+      30.150066232417583,
+      38.33572161229565,
+      1.2264172120300023,
+      -1.4546251666139556,
+      0.8014229798363641,
+      -27.644294356824854,
+      19.66633761181401
+    ]
+  },
+  "nested_fold_count": 540,
+  "outer_fit_count": 36,
+  "selected_penalty_counts": {
+    "0.01": 11,
+    "1.0": 1,
+    "10.0": 2,
+    "100.0": 22
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "SPD_H1_POLICY_SKILL": "NOT_TESTED",
+  "eligible_pair_signal_rows": 450,
+  "fx_outcomes_accessed": false,
+  "h1_available_sample_diagnostic": {
+    "currencies": [
+      "AUD",
+      "CAD",
+      "CHF",
+      "EUR",
+      "GBP",
+      "NOK",
+      "NZD",
+      "SEK",
+      "USD"
+    ],
+    "estimable": true,
+    "mae_bp": {
+      "no_change_bp": 48.88211382113821,
+      "prediction_equal_weight_bp": 48.676550668429385,
+      "prediction_primary_bp": 33.7186460064326
+    },
+    "month_count": 32,
+    "paired_mae_improvement_95_ci_bp": {
+      "no_change_bp": [
+        1.7810125697615704,
+        28.156706721621063
+      ],
+      "prediction_equal_weight_bp": [
+        4.886187005012544,
+        26.848001550390137
+      ]
+    },
+    "row_count": 246,
+    "supported": true
+  },
+  "pair_signal_rows": 835,
+  "phase": "03-policy-signal-freeze",
+  "prediction_rows": 255,
+  "primary_interpretation": "H1 remains NOT_TESTED because the source gate failed even if the available-sample diagnostic has a positive or negative result.",
+  "rank_rows": 242,
+  "source_gate": "FAIL",
+  "status": "FROZEN_DIAGNOSTIC_NOT_PRIMARY"
+}

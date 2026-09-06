@@ -1,0 +1,12 @@
+{
+  "currency_predictions_sha256": "af2d872feba8e88d850dadbc97829fd7c0b4adb236101efa991909baf0225f49",
+  "currency_ranks_sha256": "57b82fb7b7dc313b2facb05edf8be612976b81c9a10fb6c3646ac58f7b01037b",
+  "fx_input_read": false,
+  "pair_signals_sha256": "9bc200da42518ec47c9e04333485f660b4dc7c8d5c3f308d40dead690d0615db",
+  "panel_input_sha256": "18d74c1d13c3011dce75767ae74b6760d915e608a70aff79177425a060e85f54",
+  "phase": "03-policy-signal-freeze",
+  "runner_parameters": [
+    "root"
+  ],
+  "sealed_2026_fx_read": false
+}
