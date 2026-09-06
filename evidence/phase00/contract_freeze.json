@@ -1,0 +1,9 @@
+{
+  "confirmation_fx_accessed": false,
+  "contract_frozen_date": "2026-09-06",
+  "contract_path": "config/research_contract_v0_1.json",
+  "namespace": "structural_policy_divergence_v1",
+  "phase": "00-research-design",
+  "sealed_fx_start": "2026-01-01",
+  "status": "COMPLETE"
+}
