@@ -3,8 +3,12 @@ from __future__ import annotations
 import inspect
 from datetime import date
 
+import pytest
+
+from fx_structural_policy_divergence.io_utils import write_json
 from fx_structural_policy_divergence.phase03_model import (
     block_bootstrap_mean_ci,
+    canonical_text_sha256,
     eligible_training_rows,
     run_phase03,
     verify_prediction_freeze,
@@ -68,9 +72,7 @@ def test_freeze_verifier_rejects_mutated_signal(tmp_path) -> None:
     evidence.mkdir(parents=True)
     for name in ("currency_predictions.csv", "pair_signals.csv", "currency_ranks.csv"):
         (evidence / name).write_text("frozen\n", encoding="utf-8")
-    from fx_structural_policy_divergence.io_utils import sha256_file, write_json
-
-    digest = sha256_file(evidence / "currency_predictions.csv")
+    digest = canonical_text_sha256(evidence / "currency_predictions.csv")
     write_json(
         evidence / "prediction_freeze.json",
         {
@@ -81,7 +83,13 @@ def test_freeze_verifier_rejects_mutated_signal(tmp_path) -> None:
     )
     assert verify_prediction_freeze(tmp_path)["status"] == "PASS"
     (evidence / "pair_signals.csv").write_text("mutated\n", encoding="utf-8")
-    import pytest
-
     with pytest.raises(ValueError, match="freeze mismatch"):
         verify_prediction_freeze(tmp_path)
+
+
+def test_canonical_freeze_hash_ignores_only_line_endings(tmp_path) -> None:
+    left = tmp_path / "left.csv"
+    right = tmp_path / "right.csv"
+    left.write_bytes(b"a,b\n1,2\n")
+    right.write_bytes(b"a,b\r\n1,2\r\n")
+    assert canonical_text_sha256(left) == canonical_text_sha256(right)

@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "bytes": 1386,
+      "path": "config_snapshot.yaml",
+      "sha256": "c055e61c0e81d351f011c651d3905b6de82806975900c518974a6259f56cd084"
+    },
+    {
+      "bytes": 138,
+      "path": "issues.jsonl",
+      "sha256": "b89a40aba6d42b73536588ffe0237707dac2341cab1340814dd05a16488ad1c9"
+    },
+    {
+      "bytes": 2482,
+      "path": "monthly_rank_outcomes.csv",
+      "sha256": "ee182b266075b0f9acdb294bac49669ce342edd92edc1b15c97788892c2ad4ec"
+    },
+    {
+      "bytes": 53040,
+      "path": "pair_outcomes.csv",
+      "sha256": "0ce8b50dc32089704cbbca6bc97be4794d73b3d1208f6a4f4bb2d64743e93469"
+    },
+    {
+      "bytes": 607,
+      "path": "REPORT.md",
+      "sha256": "6158086926fe764c72a7185a3b31e1af86da9f7159355107c009e7e777455bbd"
+    },
+    {
+      "bytes": 108,
+      "path": "sample_flow.json",
+      "sha256": "5334fbf2f2ae9a51e01d5bddc3655454bde9561c5aa1ee1cdb553c2d22cd53be"
+    },
+    {
+      "bytes": 525,
+      "path": "source_manifest.json",
+      "sha256": "f00042766b63cc2664c074697938ed04d4f5212f8c778b87030467326a42bf21"
+    },
+    {
+      "bytes": 5395,
+      "path": "summary.json",
+      "sha256": "1f37958fd0485e3f97dc2f57caa27e4785335cdcb96a9f971870cde149f64f95"
+    }
+  ],
+  "phase": "04-fx-evaluation"
+}

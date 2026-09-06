@@ -1,0 +1,8 @@
+{
+  "ecb_raw_sha256": "b787187b6be9bc78489fc7718d8339e52e1b67030e18408fd438dc800892d515",
+  "ecb_source_url": "https://data-api.ecb.europa.eu/service/data/EXR/D.AUD+CAD+CHF+GBP+JPY+NOK+NZD+SEK+USD.EUR.SP00.A?startPeriod=2022-12-01&endPeriod=2025-12-31&format=csvdata",
+  "phase03_rank_sha256": "df38d0dc2c030db19e5bd28dbd60847bd4c7dccab5a1407ab92e2e71628b5580",
+  "phase03_signal_sha256": "75ae69788219c454c046affec145c8272ed60003c3edbed1725ce60af7167a99",
+  "research_marks_only": true,
+  "sealed_2026_fx_accessed": false
+}

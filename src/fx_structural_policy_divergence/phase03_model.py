@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Any
 
 from .io_utils import (
+    sha256_bytes,
     sha256_file,
     write_csv,
     write_json,
@@ -32,6 +33,11 @@ MACRO_FEATURES = (
 )
 POLICY_FEATURES = (*MACRO_FEATURES, "policy_rate_percent", "policy_change_3m_bp")
 BASE_PRIORITY = ("EUR", "GBP", "AUD", "NZD", "USD", "CAD", "CHF", "JPY", "NOK", "SEK")
+
+
+def canonical_text_sha256(path: Path) -> str:
+    """Hash logical text consistently across Git LF/CRLF checkouts."""
+    return sha256_bytes(path.read_bytes().replace(b"\r\n", b"\n"))
 
 
 @dataclass(frozen=True)
@@ -404,14 +410,15 @@ def verify_prediction_freeze(root: Path) -> dict[str, Any]:
     )
     checks = {
         "currency_predictions": (
-            sha256_file(evidence / "currency_predictions.csv")
+            canonical_text_sha256(evidence / "currency_predictions.csv")
             == freeze["currency_predictions_sha256"]
         ),
         "pair_signals": (
-            sha256_file(evidence / "pair_signals.csv") == freeze["pair_signals_sha256"]
+            canonical_text_sha256(evidence / "pair_signals.csv")
+            == freeze["pair_signals_sha256"]
         ),
         "currency_ranks": (
-            sha256_file(evidence / "currency_ranks.csv")
+            canonical_text_sha256(evidence / "currency_ranks.csv")
             == freeze["currency_ranks_sha256"]
         ),
     }
@@ -559,11 +566,11 @@ def run_phase03(root: Path) -> dict[str, Any]:
     write_json(artifact / "nested_fold_records.json", fold_records)
     freeze = {
         "phase": "03-policy-signal-freeze",
-        "currency_predictions_sha256": sha256_file(
+        "currency_predictions_sha256": canonical_text_sha256(
             evidence / "currency_predictions.csv"
         ),
-        "pair_signals_sha256": sha256_file(evidence / "pair_signals.csv"),
-        "currency_ranks_sha256": sha256_file(evidence / "currency_ranks.csv"),
+        "pair_signals_sha256": canonical_text_sha256(evidence / "pair_signals.csv"),
+        "currency_ranks_sha256": canonical_text_sha256(evidence / "currency_ranks.csv"),
         "panel_input_sha256": sha256_file(panel_path),
         "fx_input_read": False,
         "sealed_2026_fx_read": False,
