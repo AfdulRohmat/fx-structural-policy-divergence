@@ -1,0 +1,80 @@
+{
+  "complete_row_count": 1088,
+  "confirmation_complete_row_count": 246,
+  "confirmation_row_count": 350,
+  "coverage_by_currency": {
+    "AUD": {
+      "complete_rows": 29,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-06-30"
+    },
+    "CAD": {
+      "complete_rows": 31,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-07-31"
+    },
+    "CHF": {
+      "complete_rows": 30,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-06-30"
+    },
+    "EUR": {
+      "complete_rows": 6,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2023-06-30"
+    },
+    "GBP": {
+      "complete_rows": 27,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-05-31"
+    },
+    "JPY": {
+      "complete_rows": 0,
+      "confirmation_rows": 35,
+      "first_complete": null,
+      "last_complete": null
+    },
+    "NOK": {
+      "complete_rows": 31,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-07-31"
+    },
+    "NZD": {
+      "complete_rows": 29,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-06-30"
+    },
+    "SEK": {
+      "complete_rows": 31,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-07-31"
+    },
+    "USD": {
+      "complete_rows": 32,
+      "confirmation_rows": 35,
+      "first_complete": "2023-01-31",
+      "last_complete": "2025-08-31"
+    }
+  },
+  "diagnostic_scope": "Only complete currency-months may enter diagnostics. Missing or stale macro observations are never imputed.",
+  "full_g10_confirmation_months": 0,
+  "fx_outcomes_accessed": false,
+  "phase": "02-canonical-panel",
+  "primary_eligible": false,
+  "row_count": 1550,
+  "sealed_2026_fx_accessed": false,
+  "series_fetch_status_counts": {
+    "PARTIAL": 28,
+    "PASS": 2
+  },
+  "source_gate": "FAIL",
+  "status": "NOT_TESTED_PRIMARY_DIAGNOSTIC_PANEL_BUILT"
+}

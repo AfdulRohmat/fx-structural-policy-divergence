@@ -1,0 +1,14 @@
+{
+  "amendment_id": "SPD_SOURCE_RECENCY_V0_1_1",
+  "adopted_before_confirmatory_fx_access": true,
+  "adopted_before_phase03_signal_freeze": true,
+  "changes": {
+    "monthly_recency_days": {"from": 75, "to": 190},
+    "quarterly_recency_days": {"from": 150, "to": 285}
+  },
+  "reason": "The first canonical-panel build showed that observation reference dates precede month-end release availability by up to roughly five months for some harmonised labour feeds. The original limits rejected legitimately available releases. The replacement limits allow normal provider dissemination lag while still failing discontinued series closed after about six months for monthly data and nine months for quarterly data.",
+  "outcome_information_used": false,
+  "primary_source_gate_changed": false,
+  "primary_source_gate_remains": "FAIL",
+  "effect": "Diagnostic panel coverage only; no registered hypothesis becomes primary-eligible."
+}

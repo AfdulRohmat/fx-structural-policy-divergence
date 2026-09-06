@@ -3,7 +3,7 @@
   "provider": "ALFRED",
   "observation_start": "2000-01-01",
   "qualification_vintages": ["2013-01-31", "2022-12-31", "2023-01-31", "2025-11-30"],
-  "recency_days": {"monthly": 75, "quarterly": 150},
+  "recency_days": {"monthly": 190, "quarterly": 285},
   "bis_ref_areas": {"AUD": "AU", "CAD": "CA", "CHF": "CH", "EUR": "XM", "GBP": "GB", "JPY": "JP", "NOK": "NO", "NZD": "NZ", "SEK": "SE", "USD": "US"},
   "currencies": {
     "AUD": {

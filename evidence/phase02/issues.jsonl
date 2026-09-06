@@ -1,0 +1,10 @@
+{"complete_rows": 29, "currency": "AUD", "last_complete": "2025-06-30", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 31, "currency": "CAD", "last_complete": "2025-07-31", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 30, "currency": "CHF", "last_complete": "2025-06-30", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 6, "currency": "EUR", "last_complete": "2023-06-30", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 27, "currency": "GBP", "last_complete": "2025-05-31", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 0, "currency": "JPY", "last_complete": null, "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 31, "currency": "NOK", "last_complete": "2025-07-31", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 29, "currency": "NZD", "last_complete": "2025-06-30", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 31, "currency": "SEK", "last_complete": "2025-07-31", "severity": "BLOCKING_PRIMARY"}
+{"complete_rows": 32, "currency": "USD", "last_complete": "2025-08-31", "severity": "BLOCKING_PRIMARY"}

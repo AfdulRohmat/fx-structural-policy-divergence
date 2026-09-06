@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "bytes": 9187,
+      "path": "config_snapshot.yaml",
+      "sha256": "89158d7bb0bef8fec1a6012c9251291f12b2ca9ba605bfabca2b536ed6379846"
+    },
+    {
+      "bytes": 368,
+      "path": "coverage_by_currency.csv",
+      "sha256": "8aa284fe08eb5415542bd8da251a79df2a8161510445e8cb38776fe3a46acc0f"
+    },
+    {
+      "bytes": 1030,
+      "path": "issues.jsonl",
+      "sha256": "6af4e97f15c63a19ae81c8f4d4ebb0c6c640f9c34c04a02bd90303b2bfa40c34"
+    },
+    {
+      "bytes": 594,
+      "path": "REPORT.md",
+      "sha256": "1347cb45678e54a97d0a46548b17b792bbcfcd9b299772036c87555271b13775"
+    },
+    {
+      "bytes": 2118,
+      "path": "sample_flow.json",
+      "sha256": "618f15570467b18c56df61e8bbd49503298a6e3916bb8fb20f0f3c4e31e04392"
+    },
+    {
+      "bytes": 9023,
+      "path": "source_manifest.json",
+      "sha256": "747082c82c0be34058828ac7ddecd42c557abcfafccbe40b55ccd052f0b2ac84"
+    },
+    {
+      "bytes": 2118,
+      "path": "summary.json",
+      "sha256": "618f15570467b18c56df61e8bbd49503298a6e3916bb8fb20f0f3c4e31e04392"
+    }
+  ],
+  "phase": "02-canonical-panel"
+}
